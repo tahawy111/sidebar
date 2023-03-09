@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.conatiner{
+    background-image: radial-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .8)), url('https://raw.githubusercontent.com/tahawy111/The_End_Of_The_Year_2021/main/files/images/3776.jpg');
+}
+
+.btn{
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    padding: .75em 1em;
+    font-size: 1em;
+    letter-spacing: 1px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .4);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color: rgb(134, 49, 0);
+    color: #fff;
+}
