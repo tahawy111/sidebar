@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 
-.conatiner{
-    background-image: radial-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .8)), url('https://raw.githubusercontent.com/tahawy111/The_End_Of_The_Year_2021/main/files/images/3776.jpg');
-}
-
 .btn{
     margin: 0 auto;
     border: none;
@@ -20,4 +16,8 @@
     border-radius: 3px;
     background-color: rgb(134, 49, 0);
     color: #fff;
+}
+
+.sidebar {
+    transition: transform 0.5s ease-in;
 }
